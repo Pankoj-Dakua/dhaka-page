@@ -1,0 +1,48 @@
+:root{
+    --depgreen: #187e7e;
+    --lightgreen: #60f1f1;
+    --white:#fafafa;
+    --red:#fa0303aa;
+    --black:#070707aa;
+}
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navmenu{
+    border: 1px solid red;
+    display:flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.navemenu-icon{
+    width: 10%;
+    font-size: 20px;
+    border: 1px solid rgb(0, 255, 64);
+    align-content: center;
+}
+.navmenu-list ul{
+    width: 70%;
+    
+    border: 1px solid rgb(38, 0, 255);
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+}
+.navmenu ul li{
+   height: 40px;
+
+}
+.navmenu ul li a{
+    font-size: 20px;
+}
+
+
+
+

@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sens-serif;
+
+  /* Primary Brand Colors */
+  --color-primary: #2563eb;
+  --color-primary-hover: #1d4ed8;
+  --color-secondary: #64748b;
+  --color-accent: #f97316;
+
+  /* Background Colors */
+  --color-bg-main: #ffffff;
+  --color-bg-soft: #f8fafc;
+  --color-bg-muted: #f1f5f9;
+  --color-bg-dark: #0f172a;
+  --color-bg-light-dark: #313338;
+
+  /* Text Colors */
+  --color-text-main: #0f172a;
+  --color-text-muted: #64748b;
+  --color-text-light: #94a3b8;
+  --color-text-white: #ffffff;
+
+  /* Border Colors */
+  --color-border-main: #e2e8f0;
+  --color-border-dark: #cbd5e1;
+
+  /* Status Colors */
+  --color-success: #22c55e;
+  --color-warning: #facc15;
+  --color-error: #ef4444;
+  --color-info: #38bdf8;
+
+  /* Button Colors */
+  --btn-primary-bg: var(--color-primary);
+  --btn-primary-text: #ffffff;
+  --btn-secondary-bg: #e2e8f0;
+  --btn-secondary-text: #0f172a;
+
+  /* Link Colors */
+  --link-color: #2563eb;
+  --link-hover: #1d4ed8;
+
+  /* Shadow Colors */
+  --shadow-light: rgba(0,0,0,0.08);
+  --shadow-medium: rgba(0,0,0,0.15);
+
+  /* Overlay */
+  --overlay-dark: rgba(15, 23, 42, 0.6);
+
+  /* border-bottom: 2px solid var(--primary-bg-color); */
+}
+body,html {
+width: 100%;
+height: 1500px;
+}
+.grid-container-main{
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.header{
+    border: 1px solid var(--color-border-main);
+    height: 100px;
+    background: var(--color-bg-main);
+    text-align: center;
+    align-content: center;
+    grid-column: 1 / -1;
+}
+.menu{
+    border: 1px solid var(--color-border-main);
+    height: 50px;
+    background: var(--color-bg-muted);
+    text-align: center;
+    align-content: center;
+    grid-column: 1 / -1;
+}
+.content{
+    border: 1px solid var(--color-border-main);
+    height: 500px;
+    background: var(--color-bg-soft);
+    text-align: center;
+    align-content: center;
+    grid-column: 1 / -1;
+}
+.footer{
+    border: 1px solid var(--color-border-main);
+    height: 300px;
+    background: var(--color-bg-light-dark);
+    text-align: center;
+    align-content: center;
+    grid-column: 1 / -1;
+}
+
+
+
+
+
+
+
+
