@@ -1,4 +1,7 @@
-image/
+image/*
+!constraction_01.jpg
+!image_12.jpg
+!image_13.jpg
 docu/
 video/
 note.html
