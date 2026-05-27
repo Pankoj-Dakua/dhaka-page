@@ -8,22 +8,35 @@
 
 
 /* --------------------------------------------------------- */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    
+  } 
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-   
-}
+  /* Large devices (laptops/desktops, 992px and down) */
+  @media only screen and (max-width: 992px) {
+       
+    #image-col-1 p{
+     font-size: 12px;
+    }
 
-/* Medium devices (landscape tablets, 600px and up) */
-  @media only screen and (min-width: 600px) {
-   
-  }
+    #image-col-1 button{
+    font-size: 14px;
+    }
+
+    
+  } 
+  
+  
 
 /* Small devices (portrait tablets and large phones, 768px and down) */
 @media only screen and (max-width: 768px) {
     
     #image-col-1 p{
-     font-size: 12px;
+     font-size: 10px;
+    }
+    #image-col-1 button{
+    font-size: 13px;
     }
     .top-container-third{
         height:auto;
@@ -32,7 +45,7 @@
         /* align-content: flex-start; */
         grid-column: 2 / 12;
         gap: 5px;
-        border: 1px solid rgb(255, 81, 0);
+        /* border: 1px solid rgb(255, 81, 0); */
     }
     .left-element-under-top-container-second{
         /* width: 100%; */
@@ -93,20 +106,22 @@ width: 100%;
     text-decoration: none;
     
 }
-#footer-bottom-section01-column{
+
+
+#footer-bottom-section01-column01{
     width: 25%;
     height: auto;
     /* margin: 0px 5px 0px 5px; */
     padding: 25px 0px 20px 0px;
     /* border: 1px solid var(--color-border-main); */
 }
-#footer-bottom-section01-column ul li a{
+#footer-bottom-section01-column01 ul li a{
     font-size: 12px;
     /* padding-top: 10px; */
     text-decoration: none;
     
 }
-#footer-bottom-section01-column h3{
+#footer-bottom-section01-column01 h3{
     Color: var(--btn-primary-text);
     text-decoration: underline;
     font-size: 18px;
@@ -116,20 +131,31 @@ width: 100%;
     padding-top: 60px;
     
 }
+.followus{
+    font-size: 14px;
+}
 .address{
-    font-size: 12px;
+    font-size: 10px;
+}
+
+span{
+    color: rgb(248, 246, 246);
+    font-size: 13px;
+    font-weight: bold;
+    
 }
 }
    
-  
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-    
-  } 
-  
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
-    
+ 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   
+}
+
+/* Medium devices (landscape tablets, 600px and up) */
+  @media only screen and (min-width: 600px) {
+   
   }
 
 
