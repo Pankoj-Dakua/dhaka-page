@@ -42,16 +42,3 @@ document.querySelectorAll('nav ul li').forEach(function (item) {
 });
 
 // End JavaScript for Sidenavbar
-
-
-
-
-
-
-
-
-
-
-
-
-
