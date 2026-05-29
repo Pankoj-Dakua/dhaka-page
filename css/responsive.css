@@ -12,31 +12,34 @@
   @media only screen and (min-width: 1200px) {
     
   } 
+  /* Small devices (portrait tablets and large phones, 768px and down) */
+@media only screen and (max-width: 768px) {
+}
 
   /* Large devices (laptops/desktops, 992px and down) */
   @media only screen and (max-width: 992px) {
        
-    #image-col-1 p{
+    /* #image-col-1 p{
      font-size: 12px;
     }
 
     #image-col-1 button{
     font-size: 14px;
-    }
+    } */
 
     
   } 
   
   
 
-/* Small devices (portrait tablets and large phones, 768px and down) */
-@media only screen and (max-width: 768px) {
+ /* Large devices (laptops/desktops, 992px and down) */
+  @media only screen and (max-width: 992px) {
     
     #image-col-1 p{
-     font-size: 10px;
+     /* font-size: 10px; */
     }
     #image-col-1 button{
-    font-size: 13px;
+    /* font-size: 13px; */
     }
     .top-container-third{
         height:auto;
@@ -101,7 +104,7 @@ width: 100%;
     /* border: 1px solid var(--color-border-main); */
 }
 #footer-top-section01-column ul li a{
-    font-size: 12px;
+    /* font-size: 12px; */
     /* padding-top: 10px; */
     text-decoration: none;
     
@@ -116,7 +119,7 @@ width: 100%;
     /* border: 1px solid var(--color-border-main); */
 }
 #footer-bottom-section01-column01 ul li a{
-    font-size: 12px;
+    /* font-size: 12px; */
     /* padding-top: 10px; */
     text-decoration: none;
     
@@ -124,7 +127,7 @@ width: 100%;
 #footer-bottom-section01-column01 h3{
     Color: var(--btn-primary-text);
     text-decoration: underline;
-    font-size: 18px;
+    /* font-size: 18px; */
 }
 #footer-bottom-section01-column02{
     width: 50%;
@@ -132,10 +135,10 @@ width: 100%;
     
 }
 .followus{
-    font-size: 14px;
+    /* font-size: 14px; */
 }
 .address{
-    font-size: 10px;
+    /* font-size: 10px; */
 }
 
 span{
