@@ -35,12 +35,7 @@
  /* Large devices (laptops/desktops, 992px and down) */
   @media only screen and (max-width: 992px) {
     
-    #image-col-1 p{
-     /* font-size: 10px; */
-    }
-    #image-col-1 button{
-    /* font-size: 13px; */
-    }
+    
     .top-container-third{
         height:auto;
         display: flex;
@@ -134,12 +129,8 @@ width: 100%;
     padding-top: 60px;
     
 }
-.followus{
-    /* font-size: 14px; */
-}
-.address{
-    /* font-size: 10px; */
-}
+
+
 
 span{
     color: rgb(248, 246, 246);
