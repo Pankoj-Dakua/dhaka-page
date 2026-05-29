@@ -17,7 +17,7 @@
     grid-column: 1 / 13;
     position: relative;
     /* border: 1px solid var(--color-secondary); */
-    background-color: var(--color-secondary);
+    background-color: #080808;
 }
 /* #check{
     display: block;
@@ -31,7 +31,7 @@
  }
 .navbar ul{
     width: 98%;
-    height: 40px;
+    height: 30px;
     margin-top: 10px;
     position: absolute;
     margin-right: 2px;
@@ -62,7 +62,8 @@
 
 .navbar ul li a{
     color: rgb(248, 246, 248);
-    font-size: 18px;
+    /* font-size: 18px; */
+    font-size: clamp(1rem, 1vw, 2rem);
     cursor: pointer;
     text-decoration: none;
     padding: 5px 15px 5px 15px;
@@ -93,7 +94,7 @@
 }
 .submenu_1 ul{
     display: block;
-    padding: 0, 5, 0, 0;
+    padding: 0px 5px 0px 0px;
     margin-left: 0px;
     /* background-color: rgba(158, 14, 151, 0.6); */
 }
@@ -102,11 +103,11 @@
     width: 165px;
     height: 100px;
     position: absolute;
-    margin-top: -10px;
+    margin-top: 0px;
     margin-left: 30px;
 }
 .submenu_1 ul li{
-    background-color: #33a3a3;
+    background-color: #080808;
     width: 160px;
     /* background-color: rgba(14, 124, 158, 0.6); */
     padding: 8px 0px 8px 0px;
@@ -149,6 +150,7 @@
     text-align: center;
     
 }
+
 .hoverme_2:hover .submenu_2{
     display: block;
     width: 160px;
@@ -165,7 +167,7 @@
     margin-top: -35px;
 }
 .submenu_2 ul li{
-    background-color: #246e6e;
+    background-color: #080808;
     /* background-color: rgba(14, 124, 158, 0.6); */
     width: 160px;
     padding: 8px 0px 8px 0px;
@@ -205,6 +207,7 @@
       float: right;
       line-height: 30px;
       margin-right: 10px;
+      margin-top: 10px;
       color: #fafafa;
       font-size: 25px;
       display: none;
@@ -226,7 +229,13 @@
    
   }
 /* Small devices (portrait tablets and large phones, 768px and down) */
+@media only screen and (max-width: 768px) {
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
+  
     /* .top-container-first{
     z-index: -1;
     } */
@@ -269,7 +278,7 @@
         text-align: justify;
         line-height: 50px;
         left: 10px;
-        background-color: #0ad6d6;
+        background-color: #080808;
         
     }
     .fa-angle-right{
@@ -299,12 +308,12 @@
     width: 160px;
     height: 100px;
     position: absolute;
-    top: -40px;
+    top: -50px;
     left: 368px;
     
 }
 .submenu_1 ul li{
-    background-color: #33a3a3;
+    background-color: #080808;
     /* background-color: rgba(14, 124, 158, 0.6); */
     width: 160px;
     padding: 0px 0px 0px 0px;
@@ -365,7 +374,7 @@
     
 }
 .submenu_2 ul li{
-    background-color: #246e6e;
+    background-color: #080808;
     width: 160px;
     padding: 0px 0px 0px 0px;
     left: 0px;
